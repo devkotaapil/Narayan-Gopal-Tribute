@@ -41,7 +41,7 @@ ul {
   text-align: center;
 }
 .un-list{
-  line-height: 12px;
+  line-height: 1.5;
   font-size: 1vw;
   margin: 10px auto;
   text-align: left;
@@ -50,15 +50,15 @@ ul {
 .legacy{
   font-size: 1.3vw;
   text-align: center;
-  padding: 20px;
   background-color: #1d809f;
   color: #fff;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .paragraph{
   font-style: italic;
   font-size: 0.9vw;
   text-align: right;
+
 }
 .wikilink{
   font-size: 1.3vw;
@@ -66,7 +66,8 @@ ul {
   padding: 20px;
   background-color: rgb(244, 244, 231);
   color: #212529;
-  margin: 0 auto;
+  margin: -20px auto;
+  height: 30px
 }
 .wikilink a{
   color: blue;
@@ -78,7 +79,7 @@ ul {
 .socials{
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .socials a{
   margin: 0 10px;
@@ -93,7 +94,7 @@ ul {
   text-align: center;
   font-size: 1vw;
   color: #212529;
-  margin: 10px 0;
+  margin: -10px 0;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
