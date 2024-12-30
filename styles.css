@@ -53,7 +53,6 @@ ul {
   background-color: #1d809f;
   color: #fff;
   margin: 20px auto;
-  padding: 50px;
 }
 .paragraph{
   font-style: italic;
@@ -68,7 +67,7 @@ ul {
   background-color: rgb(244, 244, 231);
   color: #212529;
   margin: -20px auto;
-  height: 30px
+  height: auto;
 }
 .wikilink a{
   color: blue;
@@ -80,7 +79,7 @@ ul {
 .socials{
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .socials a{
   margin: 0 10px;
@@ -95,10 +94,13 @@ ul {
   text-align: center;
   font-size: 1vw;
   color: #212529;
-  margin: -10px 0;
+  margin: 10px 0;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
+  .images{
+    height: 150px;
+  }
   .tm-heading {
     font-size: 4vw;
   }
@@ -109,6 +111,33 @@ ul {
   .legacy {
     font-size: 1.5vw;
     padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tm-heading {
+    font-size: 5vw;
+  }
+  .un-list {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .legacy {
+    font-size: 4vw;
+    padding: 6vw;
+  }
+  .paragraph {
+    font-size: 3vw;
+  }
+  .wikilink {
+    font-size: 4vw;
+    padding: 5vw;
+  }
+  .socials a {
+    font-size: 4vw;
+  }
+  .copyright {
+    font-size: 3vw;
   }
 }
 
